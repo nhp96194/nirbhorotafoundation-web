@@ -1,0 +1,36 @@
+@media (max-width: 991.98px) {
+  .section-pad {
+    padding: 3.25rem 0;
+  }
+
+  .display-hero {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body {
+    font-size: 0.96rem;
+  }
+
+  .section-pad {
+    padding: 2.5rem 0;
+  }
+
+  .btn,
+  .btn-nf-primary,
+  .btn-nf-secondary,
+  .btn-nf-accent {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nf-toast-stack {
+    left: 0.75rem;
+    right: 0.75rem;
+    bottom: 0.75rem;
+    max-width: none;
+  }
+}

@@ -1,0 +1,17 @@
+.admin-sidebar {
+  background-color: var(--nf-forest-dark);
+  color: var(--nf-cream);
+  min-height: calc(100vh - 56px);
+}
+
+.admin-sidebar .nav-link {
+  color: #D7E5DC !important;
+  border-radius: var(--radius-sm);
+  padding: 0.55rem 0.85rem !important;
+}
+
+.admin-sidebar .nav-link:hover,
+.admin-sidebar .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF !important;
+}
